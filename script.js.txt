@@ -1,0 +1,4 @@
+function showMessage() {
+    let message = document.getElementById("message");
+    message.classList.toggle("hidden");
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine?</h1>
+        <button id="yesBtn">Yes</button>
+        <button id="alwaysBtn">Always & Forever</button>
+    </div>
+
+    <div id="message" class="hidden">
+        <p>I have enjoyed loving you through all the changing scenes of life.</p>
+        <img src="balcony.jpg" alt="Us in high school making memories of warmth">
+    </div>
+
+   <audio id="audioPlayer" controls autoplay>
+    Your browser does not support the audio element.
+</audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
